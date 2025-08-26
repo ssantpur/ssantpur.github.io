@@ -1,0 +1,55 @@
+/* ===== Formal Light Academic Look ===== */
+:root{
+  --ink: #111111;           /* main text (black-ish) */
+  --blue: #003366;          /* header/nav blue */
+  --blue-link: #0055aa;     /* link blue */
+  --page-width: 860px;
+}
+
+html, body {
+  background: #ffffff;
+  color: var(--ink);
+  font-family: "Georgia", "Times New Roman", serif;
+  line-height: 1.6;
+  margin: 0;
+  padding: 0;
+}
+
+.wrap { max-width: var(--page-width); margin: 0 auto; padding: 1.25rem; }
+
+/* Header + nav */
+.site-header {
+  border-bottom: 1px solid #eaecef;
+  background: #fff;
+}
+.site-title {
+  color: var(--blue);
+  font-weight: 700;
+  font-size: 1.35rem;
+  margin-right: 1rem;
+  text-decoration: none;
+}
+.site-nav a {
+  color: var(--blue);
+  text-decoration: none;
+  margin-right: 1rem;
+}
+.site-nav a:hover { text-decoration: underline; }
+
+/* Headings */
+h1, h2, h3, h4 { color: var(--blue); font-weight: 700; margin-top: 1.2em; }
+
+/* Links */
+a { color: var(--blue-link); }
+a:hover { text-decoration: underline; }
+
+/* Images (profile) */
+img.profile {
+  width: 200px;
+  border-radius: 50%;
+  display: block;
+  margin: 0 0 1rem 0;
+}
+
+/* Footer */
+.site-footer { border-top: 1px solid #eaecef; color: #444; }

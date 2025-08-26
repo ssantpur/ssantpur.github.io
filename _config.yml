@@ -1,0 +1,12 @@
+title: "Sai Neha Santpur"
+description: "Experimental Particle Physicist"
+
+# Jekyll settings
+markdown: kramdown
+kramdown:
+  math_engine: mathjax
+  syntax_highlighter: rouge
+
+# (No theme needed because we use our own layout + CSS)
+# theme: jekyll-theme-minimal
+permalink: pretty
